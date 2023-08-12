@@ -26,4 +26,4 @@ jiuyu77_5.omp.json
 jiuyu77_6.omp.json
 ![jiuyu77](https://github.com/JiuYu77/ohMyPosh/blob/main/image/jiuyu77_6.jpg)
 ![jiuyu77](https://github.com/JiuYu77/ohMyPosh/blob/main/image/jiuyu77_600.jpg)
-图中的注释，是各种图标，可以任选其一使用，"template"部分只留一个不进行注释。
+图中的注释，是各种图标，可以任选其一使用，即"template"部分只留一个不进行注释。
