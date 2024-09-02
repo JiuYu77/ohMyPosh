@@ -44,6 +44,10 @@ In the picture,"template" is on behalf of the command line icon.
 # Install Oh My Posh
 [Linux | Oh My Posh](https://ohmyposh.dev/docs/installation/linux)
 
+[Customize | Oh My Posh](https://ohmyposh.dev/docs/installation/customize)
+
+oh-my-posh配置文件目录：`~/.cache/oh-my-posh/`
+
 # Nerd Fonts
 [Nerd Fonts 官网](https://www.nerdfonts.com/)
 
