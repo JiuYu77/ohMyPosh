@@ -5,6 +5,15 @@
       "alignment": "left",
       "segments": [
         {
+          "background": "#FF6471",
+          "foreground": "#ffffff",
+          "leading_diamond": "<transparent,background>\ue0b0</>",
+          "style": "diamond",
+          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
+          "trailing_diamond": "\ue0b4",
+          "type": "python"
+        },
+        {
           "background": "#61AFEF",
           "foreground": "#ffffff",
           "leading_diamond": "\ue0b6",
@@ -18,7 +27,7 @@
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
           "properties": {
-            "style": "folder" 
+            "style": "folder"
           },
           "style": "powerline",
           "template": " {{ .Path }} ",
@@ -31,16 +40,6 @@
           "style": "powerline",
           "template": " {{ .HEAD }} ",
           "type": "git"
-        },
-        {
-          //"background": "#FF6471",
-          "background": "#006471",
-          "foreground": "#ffffff",
-          "leading_diamond": "<transparent,background>\ue0b0</>",
-          "style": "diamond",
-          "template": " \ue73c {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
-          "trailing_diamond": "\ue0b4",
-          "type": "python"
         }
       ],
       "type": "prompt"
